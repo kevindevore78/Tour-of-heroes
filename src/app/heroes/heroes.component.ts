@@ -11,7 +11,7 @@ import {
 @Component({
   selector: 'app-heroes',
   standalone: true,
-  imports: [NgFor],
+  imports: [NgFor,],
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css']
 })
