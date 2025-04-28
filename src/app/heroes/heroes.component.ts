@@ -6,17 +6,12 @@ import {
   NgFor,
   /* . . . */
 } from '@angular/common';
-@Component({
-  standalone: true,
-  imports: [
-    NgFor,
-  ],
-})
+
 
 @Component({
   selector: 'app-heroes',
   standalone: true,
-  imports: [],
+  imports: [NgFor],
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css']
 })
